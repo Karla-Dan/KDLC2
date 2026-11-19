@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #fc6865;
+    background-color: #f77d7b;
     color: #df2525;
 }
 
@@ -12,7 +12,6 @@ header {
     text-align: center;
     padding: 20px;
 }
-
 /* MENÚ */
 nav {
     background-color: #e78890;
@@ -59,8 +58,34 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: #b12a28;
+    background-color: #d4908f;
     color: white;
     text-align: center;
     padding: 15px;
+}
+form{
+    background-color: #e78890;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10x;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #df2525;
+}
+button{
+    background-color: #75373c;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+label{
+    background-color: #f77d7b;
+    
 }
