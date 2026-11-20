@@ -64,7 +64,7 @@ footer {
     padding: 15px;
 }
 form{
-    background-color: #e78890;
+    background-color: #dababd;
     width: 350px;
     margin: 30px auto;
     padding: 20px;
@@ -75,7 +75,7 @@ input, select, textarea{
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color: #df2525;
+    background-color: #e66c6c;
 }
 button{
     background-color: #75373c;
@@ -85,7 +85,15 @@ button{
     width: 95%;
     cursor: pointer;
 }
+input[type="checkbox"],
+input[type="radio"]{
+    accent-color: #521f1f;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+}
 label{
-    background-color: #f77d7b;
-    
+    background-color: #e0b4b3;
+    font-weight: bold;
 }
